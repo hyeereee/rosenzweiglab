@@ -547,3 +547,16 @@ tbody tr:nth-child(odd) th {
   border: none;
   background-color: #FFF;
 }
+
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
