@@ -26,10 +26,10 @@ nav:
     href:           "/"
   - name:           "publications"
     href:           "/publication"
-  - name:           "people"
-    href:           "/people"
   - name:           "research"
     href:           "/research"
+  - name:           "people"
+    href:           "/people"
   - name:           "contact us"
     href:           "/contact"
 
