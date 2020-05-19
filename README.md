@@ -54,7 +54,7 @@ joined: 2014
 ```
 
 If you don't have information, just leave it blank. The avatar will bring photo from `images/people` folder and display it on people page.
-For lab position, you can choose position from 4 classes including `postdoc`, `gradstudent`, `visiting`, `others` (so called Honorary members). Position will put you into section that you choose.
+For lab position, you can choose position from 4 classes including `postdoc`, `gradstudent`, `researchstaff`,`visiting`, `others, `alumni`. Position will put you into section that you choose.
 
 ### Add new publications
 
