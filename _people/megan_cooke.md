@@ -1,14 +1,8 @@
 ---
-name: Dr. Derek H. Rosenzweig
-position: pi
+name: Dr. Megan E. Cooke
+position: postdoc
 avatar:
-twitter: rosenzweig_lab
-joined:
 ---
-
-<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
-
-#### Contact
 
 <a href="https://twitter.com/rosenzweig_lab"><i class="fa fa-twitter"></i></a>;
 <a href="mailto:derek.rosenzweig@mcgill.ca"><i class="fa fa-envelope-o"></i></a>
