@@ -13,17 +13,8 @@ Blablbla research
 - [Biofabrication](http://rosenzweglab.com/biofabrication/)
 - [Bone tissue engineering](http://rosenzweiglab.com/bte)
 - [Ligament tissue engineering](http://rosenzweiglab.com/lte/)
-- [Bone cancer modeling](http://rosenzweiglab.com/bonecancermodeling/)
+- [Cancer modeling](http://rosenzweiglab.com/cancermodeling/)
 
 ### Lab Members
 
 Our research group is remarkably interdisciplinary. Our interests span biology, materials science, engineering and clinical applications. Visit our [people page](http://rosenzweiglab.com/people/) for more info!
-
-### Collaborators
-
-**Do we want this?**
-
-We are always interested in collaborations near or far!
-
-**University of Pennsylvania:**
-- [David Issadore - Dept of Bioengineering](http://cnt.upenn.edu/david-issadore)
