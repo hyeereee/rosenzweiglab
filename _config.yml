@@ -28,8 +28,8 @@ nav:
     href:           "/publication"
   - name:           "people"
     href:           "/people"
-  - name:           "research interests"
-    href:           "/research interests"
+  - name:           "research"
+    href:           "/research"
   - name:           "contact us"
     href:           "/contact"
 

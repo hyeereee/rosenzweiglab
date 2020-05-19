@@ -1,4 +1,4 @@
 ---
-title: Bone Tissue Engineering
-permalink: /bte/
+title: Research Interests
+permalink: /research/
 ---
