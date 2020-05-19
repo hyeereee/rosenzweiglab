@@ -1,6 +1,6 @@
 ---
 name: Derek H. Rosenzweig
-position: Principal Investigator
+position: pi
 avatar:
 twitter: rosenzweig_lab
 joined:
