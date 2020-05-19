@@ -8,7 +8,7 @@ joined:
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 
-### Contact
+## Contact
 
 <<a href="https://twitter.com/rosenzweig_lab"><i class="fa fa-twitter"></i></a>;
 <a href="mailto:derek.rosenzweig@mcgill.ca"><i class="fa fa-envelope-o"></i></a>
@@ -17,13 +17,13 @@ joined:
 
 <hr>
 
-### Bio
+## Bio
 
 Blablabla
 
 
 <hr>
 
-### Research Interests
+## Research Interests
 
 Blablabla
