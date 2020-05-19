@@ -11,46 +11,25 @@ layout: default
 
         <span style="display: block; margin-bottom: 3em"></span>
 
-      <a href="https://twitter.com/rosenzweig_lab"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;
+      <h2><a href="https://twitter.com/rosenzweig_lab"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;
       <a href="mailto:derek.rosenzweig@mcgill.ca"><i class="fa fa-envelope-o"></i></a>
       <a href="https://www.linkedin.com/in/derekrosenzweigphd/"><i class="fab fa-linked-in"></i></a>
       <a href="https://scholar.google.com/citations?hl=en&user=jUzBxPMAAAAJ"><i class="ai ai-google-scholar-square ai-3x"></i></a>
+      </h2>
 
-      </p>
 
-
-      <div class="w3-container" style="padding: 25px; border-radius:10px">
-        <div style="text-align:left">
-          <h3> Recent News </h3>
-          <u>Happenings of the last two months. Updated 11/18/2019</u>
-          <span style="display: block; margin-bottom: 1em"></span>
-          <div class="news">
-              {% capture now %}{{'now' | date: '%s' | minus: 5184000 %}}{% endcapture %}
-              <ul style="list-style-position:outside;padding:20px" >
-                {% for new in site.data.news %}
-                  {% capture date %}{{new.date | date: '%s' | plus: 0 %}}{% endcapture %}
-                  {% if date > now %}
-                    <li>
-                      <span>
-                        {{ new.details }}
-                      </span>
-                    </li>
-                  {% endif %}
-                {% endfor %}
-              </ul>
+      <div class="row">
+        <div class="column">
+          <h2>Research Interests</h2>
           </div>
-        </div >
+  </div>
+
+      <div class="column">
+      <a class="twitter-timeline" data-width="500" data-height="300" href="https://twitter.com/rosenzweig_lab?ref_src=twsrc%5Etfw">Tweets by rosenzweig_lab</a>  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
 
-
-
       <span style="display: block; margin-bottom: 3em"></span>
-
-      <a class="twitter-timeline" data-width="500" data-height="300" href="https://twitter.com/rosenzweig_lab?ref_src=twsrc%5Etfw">Tweets by rosenzweig_lab</a>  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-      <span style="display: block; margin-bottom: 3em"></span>
-        &copy; Rosenzweig Lab <? echo date(Y);?>
+        &copy; Rosenzweig Lab 2020
       <span style="display: block; margin-bottom: 3em"></span>
 
     </header>
-</div>
