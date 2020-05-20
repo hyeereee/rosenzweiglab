@@ -40,7 +40,7 @@ permalink: /people/
   {% for profile in people_sorted %}
     {% if profile.position contains role %}
       <div class="list-item-people">
-        <p class="list-post-title">
+        <p class="list-post-title; center">
           {% if profile.avatar %}
             <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a>
           {% else %}
