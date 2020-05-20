@@ -3,13 +3,13 @@ name: Dr. Megan E. Cooke
 position: postdoc
 avatar:
 ---
-<img width="100" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
+<img width="100" src="{{site.url}}/images/people/{{page.avatar}}" data-action="zoom">
 
-<a href="https://twitter.com/megscooke"><i class="fa fa-twitter-2x"></i></a>
-<a href="mailto:megan.cooke@mail.mcgill.ca"><i class="fa fa-envelope-o-2x"></i></a>
-<a href="https://www.linkedin.com/in/megan-cooke-04a9846a"><i class="fab fa-linked-in-2x"></i></a>
-<a href="https://scholar.google.com/citations?user=d-28zGQAAAAJ&hl=en"><i class="ai ai-google-scholar-square-2x"></i></a>
-<a href="https://orcid.org/0000-0001-5254-7559"><img width="24px" src="{{ site.baseurl }}/images/logo/ORCID.png"></a>
+<a href="https://twitter.com/megscooke"><i class="fa fa-twitter"></i></a>
+<a href="mailto:megan.cooke@mail.mcgill.ca"><i class="fa fa-envelope-o"></i></a>
+<a href="https://www.linkedin.com/in/megan-cooke-04a9846a"><i class="fab fa-linked-in"></i></a>
+<a href="https://scholar.google.com/citations?user=d-28zGQAAAAJ&hl=en"><i class="ai ai-google-scholar-square"></i></a>
+<a href="https://orcid.org/0000-0001-5254-7559"><img width="24px" src="{{site.url}}/images/logo/ORCID.png"></a>
 
 
 <hr>
