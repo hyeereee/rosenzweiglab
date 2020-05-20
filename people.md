@@ -42,11 +42,6 @@ permalink: /people/
 {% else %}
 <br>
 
-| Name | Position | Where they went |
-| :------------- |:--------------| :-------------|
-| Antone Nour | Masters Student (2018-2020) | - |
-| Elie Akoury | Postdoc (2020) | - |
-| Sofia Garcia Luna | Visiting Scholar (2018) | - |
 
 {% endif %}
 {% endfor %}
