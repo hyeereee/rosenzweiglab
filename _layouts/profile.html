@@ -1,7 +1,43 @@
 ---
 layout: default
 ---
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 70%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+
+<body>
 <div class="container content page">
-      <h3 class="page-title">{{ page.name }}</h3>
-  {{ content }}
-</div>
+  <div class="row">
+    <div class="column">
+          <h3 class="page-title">{{ page.name }}
+          <a href="mailto:{{page.email}}"><i class="fa fa-envelope"></i></a>
+          <a href="https://twitter.com/{{page.twitter}}"><i class="fa fa-twitter"></i></a>
+          <a href="{{page.linkedin}}"><i class="fa fa-linkedin square"></i></a>
+          <a href="https://scholar.google.com/citations?user={{page.googlescholar}}=en"><i class="ai ai-google-scholar-square"></i></a>
+          <a href="https://orcid.org/{{page.orcid}}"><img src="{{site.baseurl}}/images/logo/ORCID.png"></a>
+          </h3>
+          </div>
+      <div class= "column">
+        <img width="230px" src="{{site.baseurl}}/images/people/{{page.avatar}}">
+      </div>
+</body>
