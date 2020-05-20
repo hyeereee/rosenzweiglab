@@ -28,11 +28,8 @@ permalink: /people/
 <h3>Non-thesis Masters Students</h3>
  {% elsif role == 'others' %}
 <h3>Visiting Scholars</h3>
-
-{% endif %}
-</div>
-
-{% if role != 'alumni' %}
+ {% elsif role == 'alumni' %}
+<h3>Alumni</h3>
 <div class="content list people">
   {% for profile in people_sorted %}
     {% if profile.position contains role %}
@@ -41,9 +38,8 @@ permalink: /people/
                 <a class="name" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a>
         </p>
       </div>    
-    {% endif %}
+{% endif %}
+
   {% endfor %}
 </div>
 <hr>
-{% endif %}
-{% endfor %}
