@@ -44,12 +44,12 @@ permalink: /people/
           {% if profile.avatar %}
           <div class="item">
                 <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a>
-              <span class="caption"><a class="name" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a></span>
+              <span class="caption"><a href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a></span>
           </div>
           {% else %}
           <div class="item">
                 <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg"></a>
-              <span class="caption"><a class="name" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a></span>
+              <span class="caption"><a href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a></span>
           </div>
           {% endif %}
         </p>
