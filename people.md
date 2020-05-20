@@ -47,9 +47,9 @@ permalink: /people/
           {% else %}
             <br>
           {% endif %}
-          <h4><center>
+          <h5><center>
           <a class="name" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a>
-          </center></h4>
+          </center></h5>
         </p>
       </div>    
     {% endif %}
