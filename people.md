@@ -28,8 +28,7 @@ permalink: /people/
 <h3>Non-thesis Masters Students</h3>
  {% elsif role == 'others' %}
 <h3>Visiting Scholars</h3>
- {% elsif role == 'alumni' %}
-<h3>Alumni</h3>
+
 {% endif %}
 </div>
 
