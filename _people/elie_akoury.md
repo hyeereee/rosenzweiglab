@@ -1,6 +1,6 @@
 ---
 name: Dr. Elie Akoury
-position: postdoc
+position: alumni
 avatar:
 ---
 
