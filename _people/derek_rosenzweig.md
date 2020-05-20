@@ -1,7 +1,7 @@
 ---
 name: Dr. Derek H. Rosenzweig
 position: pi
-avatar:
+avatar: 
 twitter: rosenzweig_lab
 joined:
 ---
