@@ -4,7 +4,7 @@ position: postdoc
 avatar: megan_cooke.jpg
 ---
 
-<img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}">
+<img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{.avatar}}">
 
 <h3>
 <a href="mailto:megan.cooke@mail.mcgill.ca"><i class="fa fa-envelope"></i></a>
