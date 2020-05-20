@@ -29,14 +29,16 @@ layout: default
 <div class="container content page">
   <div class="row">
     <div class="column">
-          <h3 class="page-title">{{ page.name }}<br>
-          <span style="white-space: pre;">
+          <h3 class="page-title">{{ page.name }}</h3><br>
+          <div class="white-space: pre">
+          <h3>
           <a href="mailto:{{page.email}}"><i class="fa fa-envelope"></i></a>
           <a href="https://twitter.com/{{page.twitter}}"><i class="fa fa-twitter"></i></a>
           <a href="{{page.linkedin}}"><i class="fa fa-linkedin square"></i></a>
           <a href="https://scholar.google.com/citations?user={{page.googlescholar}}=en"><i class="ai ai-google-scholar-square"></i></a>
-          <a href="https://orcid.org/{{page.orcid}}"><img src="{{site.baseurl}}/images/logo/ORCID.png"></a></span>
+          <a href="https://orcid.org/{{page.orcid}}"><img src="{{site.baseurl}}/images/logo/ORCID.png"></a>
           </h3>
+        </div>
           </div>
       <div class= "column; text-align:right">
         <img width="230px" src="{{site.baseurl}}/images/people/{{page.avatar}}">
