@@ -1,5 +1,5 @@
 ---
-name: Dr. Derek H. Rosenzweig
+name: Dr. Derek H. Rosenzweig 
 position: pi
 avatar:
 twitter: rosenzweig_lab
