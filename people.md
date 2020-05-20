@@ -37,8 +37,8 @@ permalink: /people/
 <div class="content list people">
   {% for profile in people_sorted %}
     {% if profile.position contains role %}
-<center>
       <div class="list-item-people">
+      <center>
         <p class="list-post-title">
           {% if profile.avatar %}
             <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a>
