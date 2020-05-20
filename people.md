@@ -45,11 +45,11 @@ permalink: /people/
             <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a>
             </center>
           {% else %}
-
+            <br>
           {% endif %}
-          <center>
+          <h4><center>
           <a class="name" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a>
-          </center>
+          </center></h4>
         </p>
       </div>    
     {% endif %}
