@@ -1,5 +1,5 @@
 ---
-name: Elie Akoury
+name: Dr. Elie Akoury
 position: postdoc
 avatar:
 ---
