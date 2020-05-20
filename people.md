@@ -39,7 +39,9 @@ permalink: /people/
         </p>
       </div>    
 {% endif %}
-
   {% endfor %}
 </div>
+{% endif %}
+  {% endfor %}
+
 <hr>
