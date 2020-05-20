@@ -3,7 +3,7 @@ name: Dr. Megan E. Cooke
 position: postdoc
 avatar: megan_cooke.png
 ---
-<img width="100" src="{{site.url}}/images/people/{{page.avatar}}" data-action="zoom">
+<img width="300" src="{{site.url}}/images/people/{{page.avatar}}" data-action="zoom">
 
 <a href="https://twitter.com/megscooke"><i class="fa fa-twitter"></i></a>
 <a href="mailto:megan.cooke@mail.mcgill.ca"><i class="fa fa-envelope-o"></i></a>
