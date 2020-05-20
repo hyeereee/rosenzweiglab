@@ -39,7 +39,6 @@ permalink: /people/
   {% endfor %}
 <hr>
 
-{% else %}
 <br>
 
 
