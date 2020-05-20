@@ -30,8 +30,8 @@ layout: default
 <body>
   <div class="container row">
     <div class="column">
-            <h3>{{ page.name }}<br>
-
+            <h3>{{ page.name }}</h3>
+            <h3>
             {% if page.email %}
             <a href="mailto:{{page.email}}"><i class="fa fa-envelope"></i></a>
             {% else %}{% endif %}
@@ -56,7 +56,7 @@ layout: default
         {% else %}{% endif %}
       </div>
       </div>
-  
+
 <div class="container content page">
       <hr>
     {{content}}
