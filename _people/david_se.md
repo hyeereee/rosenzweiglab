@@ -1,5 +1,5 @@
 ---
-name: David Slawaska-Eng
+name: David Slawaska-Eng MD
 position: masters
 avatar:
 ---
