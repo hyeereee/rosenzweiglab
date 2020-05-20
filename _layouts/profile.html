@@ -48,14 +48,15 @@ layout: default
           <a href="https://scholar.google.com/citations?user={{page.googlescholar}}=en"><i class="ai ai-google-scholar-square"></i></a><nobr>
             {% else %}{% endif %}
           </h3>
-    
+
           </div>
       <div class= "column; text-align:right">
           {% if page.avatar %}
         <img width="300px" src="{{site.baseurl}}/images/people/{{page.avatar}}">
-        {% else %}<br><br><br><br><br>{% endif %}
+        {% else %}<br><br><br><br><br><br><br>{% endif %}
       </div>
       </div>
+
       {{content}}
       </div>
 </body>
