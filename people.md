@@ -42,8 +42,10 @@ permalink: /people/
       <div class="list-item-people">
         <p class="list-post-title">
           {% if profile.avatar %}
-            <center><a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a></center>
-            <a class="name" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a>
+          <div class="item">
+                <a href="{{ site.baseurl }}{{ profile.url }}"><img src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a>
+              <span class="caption"><a class="name" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a></span>
+          </div>
           {% else %}
             <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg"></a>
               <a class="name" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a>
@@ -54,8 +56,5 @@ permalink: /people/
   {% endfor %}
 <hr>
 </div>
-<br>
-
-
 {% endif %}
 {% endfor %}
