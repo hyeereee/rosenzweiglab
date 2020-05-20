@@ -3,14 +3,17 @@ name: Dr. Megan E. Cooke
 position: postdoc
 avatar: megan_cooke.png
 ---
+
+
+
 <img width="230px" src="{{site.baseurl}}/images/people/{{page.avatar}}">
-<div><h3>
+<h3>
 <a href="mailto:megan.cooke@mail.mcgill.ca"><i class="fa fa-envelope"></i></a>
 <a href="https://twitter.com/megscooke"><i class="fa fa-twitter"></i></a>
 <a href="https://www.linkedin.com/in/megan-cooke-04a9846a"><i class="fa fa-linkedin square"></i></a>
 <a href="https://scholar.google.com/citations?user=d-28zGQAAAAJ&hl=en"><i class="ai ai-google-scholar-square"></i></a>
-<a href="https://orcid.org/0000-0001-5254-7559"><img width="24px" src="{{site.baseurl}}/images/logo/ORCID.png"></a></span>&nbsp;
-</h3></div>
+<a href="https://orcid.org/0000-0001-5254-7559"><img src="{{site.baseurl}}/images/logo/ORCID.png"></a>
+</h3>
 
 
 <hr>
