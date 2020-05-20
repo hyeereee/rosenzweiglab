@@ -1,7 +1,7 @@
 ---
 name: Dr. Megan E. Cooke
 position: postdoc
-avatar: megan_cooke.jpg
+avatar: megan_cooke
 ---
 
 <img width="300" src="{{site.url}}/images/people/{{page.avatar}}" data-action="zoom">
