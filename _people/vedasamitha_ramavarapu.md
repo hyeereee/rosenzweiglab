@@ -1,6 +1,6 @@
 ---
 name: Vedasamitha Ramavarapu
-position: nonthesis
+position: alumni
 avatar:
 ---
 
