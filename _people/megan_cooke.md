@@ -1,8 +1,9 @@
 ---
 name: Dr. Megan E. Cooke
 position: postdoc
-avatar: megan_cooke.png
+avatar: megan_cooke.jpeg
 ---
+
 <img width="300" src="{{site.url}}/images/people/{{page.avatar}}" data-action="zoom">
 
 <a href="mailto:megan.cooke@mail.mcgill.ca"><i class="fa fa-envelope"></i></a>
