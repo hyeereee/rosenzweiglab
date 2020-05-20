@@ -1,6 +1,6 @@
 ---
 name: Jean-Gabriel Lacombe
-position:
+position: phd
 avatar:
 ---
 
