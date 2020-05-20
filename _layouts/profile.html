@@ -3,11 +3,8 @@ layout: default
 ---
 
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
-* {
-  box-sizing: border-box;
-}
 
 /* Create two equal columns that floats next to each other */
 .column {
@@ -53,11 +50,10 @@ layout: default
       <div class= "column; text-align:right">
           {% if page.avatar %}
         <img width="300px" src="{{site.baseurl}}/images/people/{{page.avatar}}">
-        {% else %}<br><br><br><br><br><br><br>{% endif %}
+        {% else %}{% endif %}
       </div>
       </div>
-
-<h2>Bio</h2>
+<br>
     {{content}}
       </div>
 </body>
