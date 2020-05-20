@@ -15,7 +15,7 @@ body {
 }
 
 html {
-  font-family: "Open Sans", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.6;
@@ -37,7 +37,7 @@ body {
 }
 
 a {
-  color: #268bd2;
+  color: #2E6895;
   text-decoration: none;
 
   &:hover,
@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: .5rem;
   font-weight: 600;
-  font-family: "Open Sans", "Source Sans Pro";
+  font-family: "Montserrat", sans-serif;
   line-height: 1.1;
   color: #333;
   letter-spacing: -.025rem;
@@ -73,14 +73,14 @@ h4, h5, h6 {
 }
 
 p {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   margin: 0 0 1rem;
   font-size: 0.8rem;
 }
 
 ul, ol, dl {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 0.8rem;
   margin-top: 0;
@@ -401,8 +401,8 @@ tbody tr:nth-child(odd) th {
 .profile-thumbnail {
   object-fit: cover;
   object-position: center top;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
 }
 
 .highlight .hll { background-color: #ffffcc }
@@ -546,4 +546,17 @@ tbody tr:nth-child(odd) th {
 .navbar-toggle, .navbar-default .navbar-toggle:hover {
   border: none;
   background-color: #FFF;
+}
+
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
