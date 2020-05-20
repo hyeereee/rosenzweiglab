@@ -38,18 +38,15 @@ permalink: /people/
   {% for profile in people_sorted %}
     {% if profile.position contains role %}
       <div class="list-item-people">
-
         <p class="list-post-title">
           {% if profile.avatar %}
-          <center>
+            <center>
             <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a>
             </center>
           {% else %}
             <br>
           {% endif %}
-          <h6><center>
           <a class="name" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a>
-          </center></h6>
         </p>
       </div>    
     {% endif %}
