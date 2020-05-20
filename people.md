@@ -20,14 +20,14 @@ permalink: /people/
 <h3>Postdoctoral Fellows</h3>
  {% elsif role == 'pi' %}
 <h3>Principal Investigator</h3>
- {% elsif role == 'gradstudent' %}
-<h3>Graduate Students</h3>
- {% elsif role == 'researchstaff' %}
-<h3>Research Staff</h3>
- {% elsif role == 'visiting' %}
+ {% elsif role == 'phd' %}
+<h3>PhD Students</h3>
+ {% elsif role == 'masters' %}
+<h3>Masters Students</h3>
+ {% elsif role == 'nonthesis' %}
+<h3>Non-thesis Masters Students</h3>
+ {% elsif role == 'other' %}
 <h3>Visiting Scholars</h3>
- {% elsif role == 'others' %}
-<h3>Honorary Members</h3>
  {% elsif role == 'alumni' %}
 <h3>Alumni</h3>
 {% endif %}
