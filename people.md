@@ -47,8 +47,10 @@ permalink: /people/
               <span class="caption"><a class="name" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a></span>
           </div>
           {% else %}
-            <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg"></a>
-              <a class="name" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a>
+          <div class="item">
+                <a href="{{ site.baseurl }}{{ profile.url }}"><img src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg"></a>
+              <span class="caption"><a class="name" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a></span>
+          </div>
           {% endif %}
         </p>
       </div>    
