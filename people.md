@@ -3,7 +3,6 @@ title: People
 permalink: /people/
 ---
 
-
 <div class="pos_header">
 {% if role == 'postdoc' %}
 <h3>Postdoctoral Fellows</h3>
@@ -42,9 +41,7 @@ permalink: /people/
 <hr>
 
 {% else %}
-
 <br>
-
 
 | Name | Position | Where they went |
 | :------------- |:--------------| :-------------|
