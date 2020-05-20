@@ -7,6 +7,7 @@ email: megan.cooke@mail.mcgill.ca
 googlescholar: d-28zGQAAAAJ&hl
 orcid: 0000-0001-5254-7559
 website: megan-cooke.com
+linkedin:
 ---
 ### Bio
 Meg graduated from the University of Birmingham with a degree in Materials Science with Sport Science.
