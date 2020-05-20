@@ -401,8 +401,8 @@ tbody tr:nth-child(odd) th {
 .profile-thumbnail {
   object-fit: cover;
   object-position: center top;
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
 }
 
 .highlight .hll { background-color: #ffffcc }
@@ -490,6 +490,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .list-post-title .name {
+  text-align: center;
   font-size: 18px;
 }
 
