@@ -559,3 +559,11 @@ tbody tr:nth-child(odd) th {
 .capitalize {
   text-transform: capitalize;
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: 2F6B95;
+  text-align: center;
+}
