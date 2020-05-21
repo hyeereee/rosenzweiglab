@@ -471,10 +471,12 @@ permalink: /publication/
   </textarea>
 </script>
 
-
 </head>
 
 <body>
+
+<h1>{{page.title}}<h1>
+
 <div id="bibtex_display"></div>
 <input type="text" class="bibtex_search" list="suggests">
 <button type="submit" class="bibtex_print">Save</button>
