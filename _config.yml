@@ -69,7 +69,7 @@ scholar:
   style: apa
   locale: en
 
-  sort_by: none
+  sort_by: year
   order: ascending
 
   group_by: none
