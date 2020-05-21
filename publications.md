@@ -474,79 +474,89 @@ permalink: /publication/
 </head>
 
 <body>
-
 <h1>{{page.title}}<h1>
 
-<div id="bibtex_display"></div>
-<input type="text" class="bibtex_search" list="suggests">
-<button type="submit" class="bibtex_print">Save</button>
-
-<datalist id="suggests">
-    <option value="@author=">
-    <option value="@title=">
-    <option value="@year=">
-    <option value="@journal=">
-</datalist>
-
-<div id="bibtex_errors"></div>
-<h1> Rendered Publications</h1>
-
-<div class="bibtex_topics"> </div>
+<body>
+<a name="top"></a>
+<h1 class="header">Your Publications</h1>
+<div class="container-fluid">
+	<div class="searchbar">
+		<div style="float:left;">
+			<button type="button" class="btn btn-default" onclick="reset()">Reset</button>
+		</div>
+		<div style="float:left;">
+			<select id="authorselectfirst" class="btn bibtex_search bibtex_author" style="border: 1px solid lightgrey;" extra="first" search="author">
+			  <option value="">Search First Author</option>
+			</select>
+		</div>
+		<div style="float:left;">
+			<select id="authorselect" class="btn bibtex_search bibtex_author" style="border: 1px solid lightgrey;" search="author">
+			  <option value="">Search Author</option>
+			</select>
+		</div>
+		<div style="float:left;">
+			<select id="topicselect" class="btn bibtex_search" style="border: 1px solid lightgrey;">
+			  <option value="">Search Topic</option>
+			  <!-- Add topic values here -->
+			  <option value="Example topic">Example Topic</option>
+			</select>
+		</div>
+		<div style="float:left;">
+			<input type="text" class="bibtex_search form-control" id="searchbar" placeholder="Search publications">
+			<span class="help-block">Example: journal 2015 (finds the intersection of the two terms)</span>
+		</div>
+	</div>
+</div>
 
 <div class="bibtex_structure">
-  <div class="sections bibtextypekey">
-    <div class="section @article">
-      <h1>Refereed Articles</h1>
-      <div class="sort year" extra="ASC number">
-        <div class="templates"></div>
+  <div class="group year" extra="ASC number">
+  	  <a href="#top" style="display: inline"><em>(Top of the page)</em></a>
+  	  <div style="padding-bottom:10px;"></div>
+  	  <div class="sort journal" extra="DESC string">
+      	<div class="templates"></div>
       </div>
-    </div>
-    <div class="section @book">
-      <h1>Books</h1>
-      <div class="sort year" extra="ASC number">
-        <div class="templates"></div>
-      </div>
-    </div>
-    <div class="section @inproceedings">
-      <h1>Conference and Workshop Papers</h1>
-      <div class="sort year" extra="ASC number">
-        <div class="templates"></div>
-      </div>
-    </div>
-    <div class="section @misc|@phdthesis|@mastersthesis|@bachelorsthesis|@techreport">
-      <h1>Other Publications</h1>
-      <div class="sort year" extra="ASC number">
-        <div class="templates"></div>
-      </div>
-    </div>
   </div>
 </div>
 
 <div id="bibtex_display">
 
-  <div class="bibtex_template">
+  <div class="bibtex_template" style="display: none;">
     <ul> <li>
       <span class="if title">
-        <a class="url">
-            <span class="title"></span>,
+        <a class="bibtexVar" href="http://www.website.com/~demo/papers/+BIBTEXKEY+.pdf" extra="BIBTEXKEY">
+            <span style="text-decoration: underline;" class="title"></span>,
         </a>
       </span>
       <div class="if author">
         <span class="author"></span>
       </div>
       <div>
-        <span class="if journal"><em><span class="journal"></span></em></span>
+        <span class="if journal"><em><span class="journal"></span></em>,</span>
+        <span class="if publisher"><em><span class="publisher"></span></em>,</span>
+        <span class="if booktitle">In <em><span class="booktitle"></span></em>,</span>
+        <span class="if address"><span class="address"></span>,</span>
         <span class="if month"><span class="month"></span>,</span>
         <span class="if year"><span class="year"></span>.</span>
+        <span class="if note"><span class="note"></span></span>
+        <a class="bibtexVar" role="button" data-toggle="collapse"
+	   href="#bib+BIBTEXKEY+" aria-expanded="false"
+	   aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY" bibtexjs-css-escape>
+		  [bib]
+		</a>
       </div>
+      <div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
+		  <div class="well">
+		    <pre><span class="bibtexraw noread"></span></pre>
+		  </div>
+	  </div>
+	  <div style="display:none"><span class="bibtextype"></span></div>
     </li></ul>
   </div>
 
 </div>
-
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
-
-
 <hr>
 
 <hr>
