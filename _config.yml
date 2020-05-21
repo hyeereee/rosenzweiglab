@@ -65,27 +65,27 @@ collections:
     permalink: /people/:title/index.html
 
 gems: ['jekyll-scholar']
-scholar:
-  style: apa
-  locale: en
+  scholar:
+    style: apa
+    locale: en
 
-  sort_by: year
-  order: ascending
+    sort_by: year
+    order: ascending
 
-  group_by: none
-  group_order: ascending
+    group_by: none
+    group_order: ascending
 
-  source: ./_bibliography
-  bibliography: references.bib
-  bibliography_template: ""
+    source: ./_bibliography
+    bibliography: references.bib
+    bibliography_template: bibtemplate
 
-  replace_strings: true
-  join_strings:    true
+    replace_strings: true
+    join_strings:    true
 
-  use_raw_bibtex_entry: false
+    use_raw_bibtex_entry: false
 
-  details_dir:    bibliography
-  details_layout: bibtex.html
-  details_link:   Details
+    details_dir:    bibliography
+    details_layout: bibtex.html
+    details_link:   Details
 
-  query: "@*"
+    query: "@*"
