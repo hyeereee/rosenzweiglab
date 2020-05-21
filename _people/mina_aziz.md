@@ -1,5 +1,5 @@
 ---
-name: Mina Aziz
+name: Mina Aziz MD
 position: masters
 avatar:
 ---

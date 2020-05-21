@@ -1,5 +1,5 @@
 ---
-name: Pouyan Ahangar
+name: Pouyan Ahangar MD
 position: phd
 avatar:
 ---

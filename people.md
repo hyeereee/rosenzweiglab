@@ -55,5 +55,11 @@ permalink: /people/
 
 {% else %}
 
+| Name | Position | Current position |
+| :------------- |:-------------| :-----------|
+| Antone Nour | Graduate Student (2012 - 2019) | - |
+
+
+
 {% endif %}
 {% endfor %}
