@@ -64,7 +64,7 @@ collections:
     output: true
     permalink: /people/:title/index.html
 
-gem 'jekyll-scholar', group: :jekyll_plugins
+gems: ['jekyll-scholar']
 scholar:
   style: apa
   locale: en
