@@ -471,11 +471,11 @@ permalink: /publication/
   </textarea>
 </script>
 
-<div id="bibtex_display"></div>
+
 </head>
 
 <body>
-
+<div id="bibtex_display"></div>
 <input type="text" class="bibtex_search" list="suggests">
 <button type="submit" class="bibtex_print">Save</button>
 
