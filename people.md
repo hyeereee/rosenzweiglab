@@ -34,7 +34,6 @@ permalink: /people/
 <h3>Alumni</h3>
 {% endif %}
 </div>
-
 {% if role != 'alumni' %}
 <div class="content list people">
   {% for profile in people_sorted %}
@@ -42,18 +41,19 @@ permalink: /people/
       <div class="list-item-people">
         <p class="list-post-title">
           {% if profile.avatar %}
-              <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a>
-
+            <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a>
           {% else %}
-                <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg"></a>
-
+            <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg"></a>
           {% endif %}
-                <a href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a>
+          <a class="name" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a>
         </p>
-
+      </div>    
     {% endif %}
   {% endfor %}
-<hr>
 </div>
+<hr>
+
+{% else %}
+
 {% endif %}
 {% endfor %}
