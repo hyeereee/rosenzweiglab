@@ -2,24 +2,28 @@
 ---
 ---
 {{reference}}
+
+<div id="{{key}}-materials">
+  <ul class="nav nav-pills">
     {% if entry.abstract %}
-    <button class="btn btnId btnPub--abstract" id="b_{{key}}-abstract" style="outline:none;">Abstract</button>
+    <li><a data-toggle="collapse" href="#{{key}}-abstract">Abstract</a></li>
     {% endif %}
 
-    <button class="btn btnId btnPub--BibTex" id="b_{{key}}-bibtex" style="outline:none;">BibTeX</button>
+    <li><a data-toggle="collapse" href="javascript:toggleDiv('{{key}}-bibtex')">BibTeX</a></li>
+    <div id="{{key}}-bibtex" style="display:none;">
+    <pre class="collapse">{{entry.bibtex}}</pre>
+    </div>
 
     {% if link %}
-    <a href="{{link}}"><button class="btn btnId btnPub--download" style="outline:none; position:relative;white-space: normal;">PDF</button></a>
+    <li><a href="{{link}}">Download</a></li>
     {% endif %}
-
-    {% if links['sup.pdf'] %}
-    <a href="{{links['sup.pdf']}}"><button class="btn btnId btnPub--supplement" style="outline:none; position:relative;white-space: normal;">Supplement</button></a>
+    {% if entry.doi %}
+    <li>DOI: <a href="http://dx.doi.org/{{entry.doi}}">{{entry.doi}}</a></li>
     {% endif %}
+  </ul>
 
-    <div class="dropDownBibtex" id="{{key}}-bibtex">
-    <pre>{{entry.bibtex}}</pre>
-    </div>
+  {% if entry.abstract %}
+  <p id="{{key}}-abstract" class="collapse">{{entry.abstract}}</p>
+  {% endif %}
 
-    <div class="dropDownAbstract" id="{{key}}-abstract">
-    {{entry.abstract}}
-    </div>
+</div>
