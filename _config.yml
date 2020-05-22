@@ -64,6 +64,7 @@ collections:
     output: true
     permalink: /people/:title/index.html
 
+gem:
 scholar:
   style: assets/bibliography/ieee-with-url.csl
   locale: en
@@ -75,7 +76,7 @@ scholar:
   source: _bibliography
   repository: pdf
   bibliography: references
-  bibliography_template: bibliography
+  bibliography_template: 
 
   replace_strings: true
 
