@@ -8,7 +8,7 @@ permalink: /publication/
 
 
 
-
+{% bibliography %}
 
 ### Copyright Notice
 
