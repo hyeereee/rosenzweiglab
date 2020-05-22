@@ -63,3 +63,6 @@ All publications from the lab are located in `publications.md`. Please upload ne
 ### Add news
 
 All news presented in the front page by editing `_data/news.yml`. There are some symbol that cannot be used directly e.g. `:`, be careful
+
+
+---
