@@ -66,6 +66,9 @@ collections:
     output: true
     permalink: /people/:title/index.html
 
+plugins:
+  - jekyll-scholar
+
 scholar:
   style: assets/bibliography/apa-6th.csl
   locale: en
