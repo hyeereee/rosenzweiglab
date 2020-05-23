@@ -1,12 +1,43 @@
 ---
+layout: page
 title: Publications
 excerpt:
 share: false
 permalink: /publication/
 ---
 
-<script src="https://bibbase.org/service/mendeley/4fc2b992-3ded-3388-870b-2ea6501878f9/group/e9ac4506-ce74-30a6-8331-0b442f17fc1e?theme=simple&authorFirst=1&owner=none&jsonp=1"></script>
+<h2>Publications</h2>
+<p></p>
+<h3>2019</h3>
 
+{% bibliography --query @*[year=2019] %}
 
+<h3>2018</h3>
+{% bibliography --query @*[year=2018] %}
 
-<footer>
+<h3>2017</h3>
+{% bibliography --query @*[year=2017] %}
+
+<h3>2016</h3>
+{% bibliography --query @*[year=2016] %}
+
+<h3>2015</h3>
+{% bibliography --query @*[year=2015] %}
+
+<h3>2014</h3>
+{% bibliography --query @*[year=2014] %}
+
+<h3>2013</h3>
+{% bibliography --query @*[year=2013] %}
+
+<h3>2012</h3>
+{% bibliography --query @*[year=2012] %}
+
+<h3>2009</h3>
+{% bibliography --query @*[year=2009] %}
+
+<h3>2007</h3>
+{% bibliography --query @*[year=2007] %}
+
+<h3>2005</h3>
+{% bibliography --query @*[year=2005] %}

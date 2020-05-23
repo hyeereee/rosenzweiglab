@@ -46,6 +46,7 @@ a {
   }
 }
 
+
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: .5rem;
@@ -76,7 +77,7 @@ p {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   margin: 0 0 1rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 ul, ol, dl {
@@ -468,18 +469,20 @@ tbody tr:nth-child(odd) th {
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 // customization
 .pos_header {
-  margin-left: 2rem;
+  margin-left: 2.5em;
+  margin-right: 2.5em;
 }
 
 .people {
   margin: auto;
   text-align: center;
   margin-top: 0.75em;
+  margin-left: 2.5em
 }
 
 .list-item-people {
   display: inline-block;
-  padding-right: 3em;
+  padding-left: 3em;
 }
 
 .list-post-title img {
@@ -489,7 +492,7 @@ tbody tr:nth-child(odd) th {
 
 .list-post-title .name {
   text-align: center;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .list-post-title {
@@ -560,110 +563,18 @@ tbody tr:nth-child(odd) th {
 .capitalize {
   text-transform: capitalize;
 }
+
+.white {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
 .footer {
-  position: absolute;
+  position: bottom;
   left: 0;
   bottom: 0;
   width: 100%;
   color: 2F6B95;
   text-align: center;
   background-color: white;
-}
-
-
-#bibbase_header a {
-    text-decoration: none;
-}
-
-#bibbase_header i {
-    width: 16px;
-    text-align: center;
-    margin-right: 5px;
-}
-
-.bibbase_group {
-    /* background-color: #D0D0E0; */
-    background-color: #E0E0E0;
-    font-style: italic;
-    font-size: larger;
-    text-shadow: 0px 0px 3px #FFFFFF;
-    border-radius: 4px 4px 4px 4px;
-    -moz-border-radius: 4px 4px 4px 4px;
-    -webkit-border-radius: 4px;
-    padding: 5px 40px 5px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    cursor: pointer;
-}
-
-.bibbase_group_body {
-    margin-left: 20px;
-}
-
-
-img.bibbase_icon {
-    width: 20px;
-    max-height: 16px;
-    vertical-align: text-top;
-
-
-    filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
-    filter: grayscale(100%); /* Current draft standard */
-    -webkit-filter: grayscale(100%); /* New WebKit */
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: gray; /* IE6+ */
-}
-
-img.bibbase_icon:hover {
-    filter: none;
-    -webkit-filter: grayscale(0);
-}
-
-
-
-/* span.bibbase_icon_text { */
-/*     display: none; */
-/* } */
-
-.bibbase_code {
-    width: 100%
-}
-
-.comment {
-    font-size: 15px;
-    font-style: italic;
-    color: gray;
-}
-
-.recommended {
-    color: green;
-}
-
-/* bootstrap */
-
-.bibbase_msg {
-    text-align: center;
-    width: 80%;
-    margin: auto;
-}
-
-#bibbase_embed_modal {
-    width: 70%;
-    left: 15%;
-    margin: 0;
-}
-
-.bibbase.well {
-    margin: 20px;
-    overflow-wrap: break-word;
-}
-
-.bibbase.link {
-    text-decoration: none;
-}
-
-.bibbase_paper_content {
-    font-size: 15px;
 }

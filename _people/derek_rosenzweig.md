@@ -7,5 +7,3 @@ email: derek.rosenzweig@mcgill.ca
 linkedin: https://www.linkedin.com/in/derekrosenzweigphd/
 googlescholar: jUzBxPMAAAAJ
 ---
-
-###Bio

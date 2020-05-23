@@ -8,9 +8,9 @@ googlescholar: d-28zGQAAAAJ&hl
 orcid: 0000-0001-5254-7559
 website: megan-cooke.com
 linkedin:
+joined: 2019
 ---
 
-Meg graduated from the University of Birmingham with a degree in Materials Science with Sport Science.
-Her undergrad research was conducted in both the laboratories of Dr. Mike Jenkins and Dr. Felicity deCogan. She then completed an MSc under the supervision of Prof Liam Grover, Dr Pola Oppenheimer and Dr Simon Jones. Her doctoral research was conducted in the Grover and Jones labs, working on biomaterials and bioprinting developments for osteoarthritis. Meg joined the Rosenzweig lab in 2019 where she is developing in vitro models of the bone-cancer interface.
+Meg’s key expertise is in biomaterials science, focussing on hydrogel development and bioprinting. She also has interests in physicochemical characterisation of tissue matrices. She completed her PhD at the University of Birmingham, UK under the supervision of Prof Liam Grover and Dr Simon Jones. Her thesis entitled “Mechanics and in vitro modelling of the osteochondral unit” investigated functional and physicochemical changes to cartilage tissue in osteoarthritis as well as developing novel strategies for suspended cell culture and suspended bioprinting. These techniques were driven by the use of fluid (sheared) hydrogels.
 
-Meg has been awarded fellowships from RSBO, FRQNT and is currently funded by a CIHR postdoctoral fellowship.
+Meg joined the Rosenzweig lab in February 2019 and is currently working on the development of in vitro models of the bone-tumour microenvironment. She has received funding from EPSRC (UK), RSBO (QC), FRQNT (QC) and CIHR (Can).
