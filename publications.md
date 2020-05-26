@@ -10,6 +10,7 @@ permalink: /publication/
 
 a.bibbase.author.link[href=#] {
   font-weight: 300;
+  pointer-events: none;
 }
 img.bibbase_icon {
     display: none;
@@ -61,7 +62,6 @@ span.bibbase_paper_author {
 br.bibbase_paper_content {
     display: block;
       font-size: 0.9rem;
-
 }
 .comment {
     font-size: 0.9rem;
