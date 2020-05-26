@@ -3,14 +3,26 @@ layout: default
 title: Rosenzweig Lab
 ---
 <head>
+  <title>Rosenzweig Lab </title>
+       <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {
   box-sizing: border-box;
 }
-/* Clear floats after the columns */
 
-.custom-banner-image {
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    /* Flexbox stuff */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* Text styles */
+  text-align: center;
+
+  /* Background styles */
   background-image: url("images/mgh2.jpg");
   background-size: 100%;
   width: 100%;
@@ -19,7 +31,6 @@ title: Rosenzweig Lab
   position: relative;
   background-position: center;
   display: block;
-  text-align: center;
 }
 
 span2 {
@@ -32,13 +43,11 @@ span2 {
 </head>
 <body>
 
-  <div class="custom-banner-image">
-      <div class="text-center">
-    <h1 class="uppercase"><strong><span2>Rosenzweig Lab</span2></strong></h1>
-
-  </div>
-  </div>
-
+       <section class="hero">
+           <div class="hero-inner">
+               <h1 class="uppercase"><strong><span2>Rosenzweig Lab</span2></strong></h1>
+           </div>
+       </section>
 
   <header class="masthead text-center">
 <div class='container'>
