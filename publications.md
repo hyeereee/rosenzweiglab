@@ -21,9 +21,9 @@ img.bibbase_icon {
     margin-top: 20px;
     margin-bottom: 10px;
     cursor: pointer;
-    font-weight: 600;
-    font-size: 1 rem;
-      font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 0.9 rem;
+      font-family: "Roboto", sans-serif;
 }
 
 .bibbase_group_body {
