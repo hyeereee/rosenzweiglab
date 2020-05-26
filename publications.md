@@ -49,6 +49,9 @@ span.bibbase_paper_author {
 br.bibbase_paper_content {
     display: block;
 }
+a.bibbase.author.link[href=#] {
+  font-weight: 300;
+}
 
 </style>
 
