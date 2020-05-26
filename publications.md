@@ -14,7 +14,7 @@ img.bibbase_icon {
 .bibbase_paper_title {
     font-weight: 300;
     font-size: 0.9rem;
-      font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .bibbase_group {
@@ -71,6 +71,4 @@ a.bibbase.author.link[href=#] {
 <link href="/bibbase.css" rel="stylesheet">
 
 <h2> Publications </h2>
-<h6>
 <script src="https://bibbase.org/show?bib=https%3A%2F%2Fhyeereee.github.io%2Frosenzweiglab%2Fbibliography%2Freferences.bib&authorFirst=1&theme=simple&jsonp=1"></script>
-</h6>
