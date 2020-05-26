@@ -7,7 +7,44 @@ permalink: /publication/
 ---
 
 <style>
-.bibbase_paper_title a{ pointer-events: none; }
+img.bibbase_icon {
+    display: none;
+}
+
+.bibbase_paper_title {
+    font-weight: normal !important;
+    font-size: 0.9rem;
+}
+
+.bibbase_group {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.bibbase_group_body {
+    margin-left: 20px;
+}
+
+br.bibbase_paper_content {
+    display: none;
+}
+
+.bibbase_group_count {
+    display: none;
+}
+.bibbase_paper_title a{
+  pointer-events: none;
+}
+
+span.bibbase_paper_author {
+    display: block;
+}
+br.bibbase_paper_content {
+    display: block;
+}
 
 </style>
 
