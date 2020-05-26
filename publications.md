@@ -18,11 +18,11 @@ img.bibbase_icon {
 }
 
 .bibbase_group {
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
     cursor: pointer;
-    font-weight: bold;
-    font-size: 1.5rem;
+    font-weight: normal;
+    font-size: 1 rem;
       font-family: "Roboto", sans-serif;
 }
 
@@ -43,6 +43,7 @@ br.bibbase_paper_content {
 
 span.bibbase_paper_author {
     font-size: 0.9rem;
+    font-weight: normal;
     font-family: "Roboto", sans-serif;
 }
 br.bibbase_paper_content {
@@ -50,7 +51,6 @@ br.bibbase_paper_content {
 }
 
 </style>
-
 
 <link href="/bibbase.css" rel="stylesheet">
 
