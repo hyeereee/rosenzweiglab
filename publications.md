@@ -43,12 +43,10 @@ br.bibbase_paper_content {
 
 span.bibbase_paper_author {
     font-size: 0.9rem;
-      font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 br.bibbase_paper_content {
     display: block;
-    font-size: 0.9rem;
-      font-family: "Roboto", sans-serif;
 }
 
 </style>
