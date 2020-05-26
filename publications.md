@@ -28,6 +28,9 @@ img.bibbase_icon {
 
 .bibbase_group_body {
     margin-left: 20px;
+    font-size: 0.9rem;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
 }
 
 br.bibbase_paper_content {
@@ -51,9 +54,7 @@ span.bibbase_paper_author {
 }
 br.bibbase_paper_content {
     display: block;
-    font-size: 0.9rem;
-    font-weight: 300;
-    font-family: "Roboto", sans-serif;
+
 }
 .comment {
     font-size: 0.9rem;
