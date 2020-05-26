@@ -65,27 +65,3 @@ collections:
   people:
     output: true
     permalink: /people/:title/index.html
-
-scholar:
-  style: assets/bibliography/apa-6th.csl
-  locale: en
-
-  sort_by: year
-  order: descending
-  bibliography_list_tag: ul
-
-  source: _bibliography
-  repository: pdf
-  bibliography: references
-  bibliography_template: bibtemplate
-
-  replace_strings: true
-  bibtex_filters:
-    - superscript
-    - latex
-
-  details_dir:    bibliography
-  details_layout: bibtex.html
-  details_link:
-
-  query: "@*"

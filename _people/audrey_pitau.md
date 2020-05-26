@@ -1,7 +1,7 @@
 ---
 name: Audrey Pitau
 position: masters
-avatar: audrey_pitau.replace_strings
+avatar: audrey_pitau.png
 ---
 
 
