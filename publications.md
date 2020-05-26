@@ -14,6 +14,7 @@ img.bibbase_icon {
 .bibbase_paper_title {
     font-weight: normal !important;
     font-size: 0.9rem;
+      font-family: "Roboto", sans-serif;
 }
 
 .bibbase_group {
@@ -21,7 +22,8 @@ img.bibbase_icon {
     margin-bottom: 5px;
     cursor: pointer;
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
+      font-family: "Roboto", sans-serif;
 }
 
 .bibbase_group_body {
@@ -40,10 +42,13 @@ br.bibbase_paper_content {
 }
 
 span.bibbase_paper_author {
-    display: block;
+    font-size: 0.9rem;
+      font-family: "Roboto", sans-serif;
 }
 br.bibbase_paper_content {
     display: block;
+    font-size: 0.9rem;
+      font-family: "Roboto", sans-serif;
 }
 
 </style>
