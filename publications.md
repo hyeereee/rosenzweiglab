@@ -60,6 +60,7 @@ span.bibbase_paper_author {
 }
 br.bibbase_paper_content {
     display: block;
+      font-size: 0.9rem;
 
 }
 .comment {
