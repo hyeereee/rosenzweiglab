@@ -61,10 +61,10 @@ br.bibbase_paper_content {
 .comment {
     font-size: 0.9rem;
     font-style: italic;
-    font-weight: 300;
+    font-weight: 600;
     font-family: "Roboto", sans-serif;
-    color: gray;
 }
+
 a.bibbase.author.link[href=#] {
   font-weight: 300;
 }
