@@ -5,7 +5,16 @@ excerpt:
 share: false
 permalink: /publication/
 ---
+
+<style>
+.bibbase_paper_title a{ pointer-events: none; }
+
+</style>
+
+
 <link href="/bibbase.css" rel="stylesheet">
+
+
 
 <h2> Publications </h2>
 <p>
