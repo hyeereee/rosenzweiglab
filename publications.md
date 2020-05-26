@@ -23,7 +23,7 @@ img.bibbase_icon {
     cursor: pointer;
     font-weight: 300;
     font-size: 0.9 rem;
-      font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .bibbase_group_body {
@@ -57,6 +57,13 @@ br.bibbase_paper_content {
     font-size: 0.9rem;
     font-weight: 300;
     font-family: "Roboto", sans-serif;
+}
+.comment {
+    font-size: 0.9rem;
+    font-style: italic;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    color: gray;
 }
 a.bibbase.author.link[href=#] {
   font-weight: 300;
