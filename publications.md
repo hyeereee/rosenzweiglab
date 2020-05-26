@@ -42,6 +42,9 @@ br.bibbase_paper_content {
 
 .bibbase_group_count {
     display: none;
+    font-size: 0.9rem;
+  
+    font-family: "Roboto", sans-serif;
 }
 .bibbase_paper_title a{
   pointer-events: none;
